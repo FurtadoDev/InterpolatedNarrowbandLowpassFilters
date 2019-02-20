@@ -1,9 +1,12 @@
-% Code illustrating the magnitude response of the band-edge shaping filter, 
-the masking filter and the resulting filter. Also contained is the 1) relationship between the percentage 
-computation reduction and the transition bandwidth, 2) the relationship between the optimum expansion factor and the 
-transition bandwidth, 3) the relationship between the maximum computation reduction and the transition bandwidth. 
-Note that the values corresponding to the passband width, the transition width, the expansion factor need to be 
-changed when plotting for different values. %
+% Code illustrating the magnitude response of the band-edge shaping filter,
+%the masking filter and the resulting filter. Also contained is the 1) relationship between the percentage 
+%computation reduction and the transition bandwidth, 2) the relationship between the optimum expansion factor and the 
+%transition bandwidth, 3) the relationship between the maximum computation reduction and the transition bandwidth. 
+%Note that the values corresponding to the passband width, the transition width, the expansion factor need to be 
+%changed when plotting for different values. 
+%Reference: R Lyons, “Interpolated Narrowband Lowpass Filters”, IEEE Signal Processing Magazine, vol. 20, pp. 50-57, Jan. 2003.
+%@version 1.0
+%@author Veinstin Furtado <vrfurtado@mun.ca>
 
 close all
 clear all
